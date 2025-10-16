@@ -19,7 +19,7 @@
 ClimaTrack is a prototype web application that predicts and visualizes the relationship between climate conditions and potential health risks.  
 The system combines climate and environmental data with a machine-learning model trained in Python to generate intelligent insights for users and communities.  
 
-This submission represents the **initial MVP** — including the prototype interface, backend logic, ML notebook, and a short demo video showing functionality and user flow.
+This submission represents the **initial MVP** — including the prototype interface screenshots, ML notebook, and a short demo video showing functionality and user flow.
 
 
 ## Code Files
@@ -31,3 +31,10 @@ Include:
 - `frontend/` —   
 - `requirements.txt`  
 - `README.md` 
+
+## Deployment Plan
+
+- **Backend:** Hosted on **Render** (Python FastAPI backend).  
+- **Frontend:** Deployed via **Flutter Web Build** on **Firebase Hosting**.  
+- **Database:** **Supabase**. 
+- **Model:** Deployed as an **API endpoint** for integration with the frontend.  
